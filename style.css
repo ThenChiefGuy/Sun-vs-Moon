@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+/* Title centered at the top */
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Container for both sides */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    height: 80vh; /* Ensure both sides have the same height */
+}
+
+.side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sun-side {
+    background-color: #fff5b1;
+}
+
+.moon-side {
+    background-color: #2b2d42;
+    color: white;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#sun-btn {
+    background-color: #f9c74f;
+    color: white;
+}
+
+#moon-btn {
+    background-color: #8d99ae;
+    color: white;
+}
+
